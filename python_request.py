@@ -54,3 +54,23 @@ for index in courses:
                 print (index["name"])
 
 
+parentExercise_Idlist=[]  
+def getExercise(secondUrl):
+        response_secondUrl=response(secondUrl)
+        parentExercise = response_secondUrl["data"] #second url key
+        count=0
+        for index in parentExercise:
+                print (count, index["name"],index["id"])
+                parentExercise_Idlist.append(index["id"])
+                count=count+1 
+                child_exercise=index["childExercises"]
+                count1=0
+                for j in child_exercise:
+                        print("\t",count1,j["name"],j["id"],)
+                        count1=count1+1
+        return (parentExercise_Idlist) 
+url2=("http://saral.navgurukul.org/api/courses/"+str(coursesId)+"/exercises")
+Exercise=getExercise(url2) 
+# print(Exercise) 
+
+
