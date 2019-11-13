@@ -17,3 +17,12 @@ def writeData(responseData):
     with open("courses.json","w") as file1:
         write_data=json.dump(responseData,file1,indent=2, sort_keys=True)
 writeData(dataResponse)
+
+
+def ReadData():
+    with open("courses.json","r") as file: 
+        loadData =json.load(file)
+        return(loadData)  
+loadCourses=ReadData() 
+# pprint (load_courses)  
+courses=loadCourses["availableCourses"] #global variable
