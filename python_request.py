@@ -120,3 +120,12 @@ choose_slug = child["slug"][user1]
 print(choose_slug) 
 slug_id = child["child_id"][user1]
 print(slug_id)
+
+def thirdUrl(thirdUrl): #in this function get the content 
+        thirdUrlResponse=response(thirdUrl) 
+        # print (thirdUrlResponse)
+        content=thirdUrlResponse["content"]
+        return(content)
+url3=("http://saral.navgurukul.org/api/courses/"+str(slug_id)+"/exercise/getBySlug?slug="+str(choose_slug))
+third=thirdUrl(url3) 
+print(third)
