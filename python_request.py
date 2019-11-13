@@ -73,4 +73,50 @@ url2=("http://saral.navgurukul.org/api/courses/"+str(coursesId)+"/exercises")
 Exercise=getExercise(url2) 
 # print(Exercise) 
 
-
+slugList=[]
+slugidList=[] 
+dic ={}
+def getData_childExercise(IDS): 
+        # print(parent)
+        response_parent=response("http://saral.navgurukul.org/api/courses/"+str(IDS)+"/exercises")
+        # pprint(response_parent) 
+        parent_Child_Data=response_parent["data"]
+        count=0 
+        for index in parent_Child_Data: 
+                if index["id"]==parentIndex:
+                        print (count, index["name"],index["id"])
+                        slugidList.append(index["id"])
+                        parent_slug=(index["slug"])
+                        # print (parent_slug)
+                        slugList.append(parent_slug)
+                        count=count+1
+                        child_exercise=index["childExercises"]
+                        count1=1
+                        for child in child_exercise:
+                                print ("\t",count1,child["name"],child["id"])
+                                slugidList.append(child["id"])
+                                # print(child_slug)
+                                slugList.append(child["slug"])
+                                # print ("                ",j["slug"]) 
+                                count1=count1+1 
+        dic["slug"]=slugList
+        dic["child_id"]=slugidList
+        return (dic)
+while True:    
+        user1=input("enter your choice if you want to go UP enter up or want exercise data-enter execise no")
+        if user1=="up":
+                load=ReadData()
+                course=courses_and_Id_Data(load)
+                break
+        else:
+                user1=int(user1) 
+                parentIndex=(Exercise[user1]) 
+                # print(parentIndex)
+                child = getData_childExercise(coursesId) 
+                # print(child)
+                break
+user1=eval(input("choose exercise"))
+choose_slug = child["slug"][user1]
+print(choose_slug) 
+slug_id = child["child_id"][user1]
+print(slug_id)
