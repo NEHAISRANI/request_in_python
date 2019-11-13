@@ -41,3 +41,16 @@ def courses_and_Id_Data(course):  #in this function saral courses and id will pr
 coursesData=courses_and_Id_Data(loadCourses) 
 # print (coursesData) 
 
+
+def userInputCourses():   
+        user=int(input("select your course no-\n"))
+        coursesDataId=(coursesData[user])
+        return (coursesDataId)
+coursesId=userInputCourses()  
+
+
+for index in courses:
+        if index["id"]==coursesId:
+                print (index["name"])
+
+
