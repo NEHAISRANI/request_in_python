@@ -26,3 +26,18 @@ def ReadData():
 loadCourses=ReadData() 
 # pprint (load_courses)  
 courses=loadCourses["availableCourses"] #global variable
+
+
+
+saralcoursesId_List=[] 
+def courses_and_Id_Data(course):  #in this function saral courses and id will print
+        count=0
+        courses_Data=course["availableCourses"]
+        for i in courses_Data:
+                print (count,i["name"],i["id"])
+                saralcoursesId_List.append(i["id"])
+                count=count+1
+        return(saralcoursesId_List)
+coursesData=courses_and_Id_Data(loadCourses) 
+# print (coursesData) 
+
