@@ -129,3 +129,38 @@ def thirdUrl(thirdUrl): #in this function get the content
 url3=("http://saral.navgurukul.org/api/courses/"+str(slug_id)+"/exercise/getBySlug?slug="+str(choose_slug))
 third=thirdUrl(url3) 
 print(third)
+
+
+def next_and_previous(): 
+        while True:
+                user=(input("enter *p* for previous and *n* for next \n"))
+                if user=="n": 
+                        global user1
+                        if user1<(len(child["child_id"]))-1:
+                                user1=user1+1
+                                # print(user1)
+                                slug = child["child_id"][user1]
+                                print(slug)
+                                choose= child["slug"][user1]
+                                print(choose)
+                                thirdApi=thirdUrl("http://saral.navgurukul.org/api/courses/"+str(slug)+"/exercise/getBySlug?slug="+str(choose))
+                                print(thirdApi)
+                        else:
+                                print ("page not found")
+                                break
+                else:
+                        
+                        user1=user1-1
+                        # print(user1)
+                        if user1<0: 
+                                print("page not found")
+                                break
+                        else:
+                                slug= child["child_id"][user1]
+                                print(slug)
+                                choose= child["slug"][user1]
+                                print(choose)
+                                thirdApi=thirdUrl("http://saral.navgurukul.org/api/courses/"+str(slug)+"/exercise/getBySlug?slug="+str(choose))
+                                print(thirdApi)
+                        
+next_and_previous()
