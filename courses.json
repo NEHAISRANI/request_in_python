@@ -1,0 +1,452 @@
+{
+  "availableCourses": [
+    {
+      "id": 14,
+      "logo": "https://tcrn.ch/2Kd0xvh",
+      "name": "GIT101 - Learning GIT",
+      "sequenceNum": 7,
+      "shortDescription": "Learning Basics of using GIT",
+      "type": "js"
+    },
+    {
+      "id": 15,
+      "logo": "https://bit.ly/2FufxWZ",
+      "name": "Introduction to HTML",
+      "sequenceNum": 11,
+      "shortDescription": "Learn how to use HTML to build simple web pages :)",
+      "type": "html"
+    },
+    {
+      "id": 16,
+      "logo": "https://bit.ly/2BfcwWh",
+      "name": "Introduction to CSS",
+      "sequenceNum": 13,
+      "shortDescription": "Learn how to use CSS to add styles to simple web pages :)",
+      "type": "html"
+    },
+    {
+      "id": 18,
+      "logo": "https://bit.ly/1h4FwSY",
+      "name": "Basics of Programming using Python",
+      "sequenceNum": 29,
+      "shortDescription": "We will learn the basics of programming using this course.",
+      "type": "python"
+    },
+    {
+      "id": 22,
+      "logo": "https://bit.ly/2A2rddz",
+      "name": "Getting Started",
+      "sequenceNum": 41,
+      "shortDescription": "We will learn how to spend your time effectively at NavGurukul. All new students must go through this course.",
+      "type": "python"
+    },
+    {
+      "id": 23,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Samvaad - Beginner",
+      "sequenceNum": 5,
+      "shortDescription": "Topics for English conversation among students",
+      "type": "html"
+    },
+    {
+      "id": 24,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Samvaad - Intermediate",
+      "sequenceNum": 16,
+      "shortDescription": "English Conversation Cards",
+      "type": "html"
+    },
+    {
+      "id": 30,
+      "logo": "https://bit.ly/2QbmyjG",
+      "name": "Learn 3000 English Words",
+      "sequenceNum": 19,
+      "shortDescription": "Build your english vocabulary by learning these 3000 words",
+      "type": "html"
+    },
+    {
+      "id": 32,
+      "logo": "https://bit.ly/2Bez35n",
+      "name": "Android - Learn Android",
+      "sequenceNum": 23,
+      "shortDescription": "Chalo bhai, Android seekhte hai!",
+      "type": "html"
+    },
+    {
+      "id": 33,
+      "logo": "https://bit.ly/2PAmJoV",
+      "name": "Hackathon - Dry Run on a Dry Day",
+      "sequenceNum": 24,
+      "shortDescription": "Isse aap program ka dry run ke through program ka control flow bananana seekhoge.",
+      "type": "html"
+    },
+    {
+      "id": 34,
+      "logo": "https://bit.ly/2zp7YLR",
+      "name": "English - Beginner",
+      "sequenceNum": 25,
+      "shortDescription": "Learn English Basics",
+      "type": "js"
+    },
+    {
+      "id": 36,
+      "logo": "https://bit.ly/2DLPMiW",
+      "name": "Reading Comprehension",
+      "sequenceNum": 27,
+      "shortDescription": "Topics for English conversation among students",
+      "type": "html"
+    },
+    {
+      "id": 37,
+      "logo": "https://bit.ly/2zp7YLR",
+      "name": "English - Intermediate",
+      "sequenceNum": 26,
+      "shortDescription": "English learning for intermediate level",
+      "type": "html"
+    },
+    {
+      "id": 41,
+      "logo": "https://bit.ly/2A2uqd7",
+      "name": "Programming Exercises (AMAR)",
+      "sequenceNum": 22,
+      "shortDescription": "Programming Exercise Course.",
+      "type": "html"
+    },
+    {
+      "id": 42,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Samvaad - Learning through dialogue!",
+      "sequenceNum": 2,
+      "shortDescription": "Learn English with one-on-one dialogues and reflecting on various important topics",
+      "type": "html"
+    },
+    {
+      "id": 44,
+      "logo": "https://bit.ly/2OPsppK",
+      "name": "Manthan",
+      "sequenceNum": 0,
+      "shortDescription": "Manthan Opportunities and Experiences",
+      "type": "html"
+    },
+    {
+      "id": 49,
+      "logo": "https://bit.ly/2A2uqd7",
+      "name": "Problem Solving 101",
+      "sequenceNum": 5,
+      "shortDescription": "Some great problem solving challenges to keep you awake.",
+      "type": "html"
+    },
+    {
+      "id": 50,
+      "logo": "https://bit.ly/2QQFd11",
+      "name": "Bas Ek Galti!",
+      "sequenceNum": 6,
+      "shortDescription": "Learning how to fix python errors",
+      "type": "html"
+    },
+    {
+      "id": 51,
+      "logo": "http://bit.do/pyON",
+      "name": "Professional Email Writing",
+      "sequenceNum": 4,
+      "shortDescription": "You will learn how to write professional emails in this course.",
+      "type": "html"
+    },
+    {
+      "id": 53,
+      "logo": "http://bit.do/recursion-png",
+      "name": "Understanding programming through recursion",
+      "sequenceNum": 8,
+      "shortDescription": "Iss course ko hum use kar kar recursions aur programming ki depth mei jayenge.",
+      "type": "html"
+    },
+    {
+      "id": 55,
+      "logo": "https://bit.ly/2FqFR4k",
+      "name": "NavGurukul's Constitution - English",
+      "sequenceNum": 9,
+      "shortDescription": "We will learn about the Constitution of NavGurukul.",
+      "type": "html"
+    },
+    {
+      "id": 56,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Soch Rahe Hain",
+      "sequenceNum": 10,
+      "shortDescription": "Important habits and tools",
+      "type": "html"
+    },
+    {
+      "id": 58,
+      "logo": "http://bit.do/hangman-png",
+      "name": "Hangman",
+      "sequenceNum": 12,
+      "shortDescription": "Iss game par code kar kar hume relatively bade programs likhna seekhenge.",
+      "type": "html"
+    },
+    {
+      "id": 59,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Kuch Baatein (Samvaad) - SV101",
+      "sequenceNum": 14,
+      "shortDescription": "Let's start talking in English with the help of these very simple topics",
+      "type": "html"
+    },
+    {
+      "id": 60,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Let's talk Technology (Samvaad) - SV201",
+      "sequenceNum": 15,
+      "shortDescription": "Let's talk on various technology topics to improve our understanding of Technology as well as English",
+      "type": "html"
+    },
+    {
+      "id": 61,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Let's talk Technology (Samvaad) - SV301",
+      "sequenceNum": 17,
+      "shortDescription": "Let's talk on various technology topics to improve our understanding of Technology as well as English",
+      "type": "html"
+    },
+    {
+      "id": 62,
+      "logo": "https://goo.gl/ctGhRD",
+      "name": "Music Angrezi - MS101",
+      "sequenceNum": 18,
+      "shortDescription": "Learn English with some nice music :-)",
+      "type": "html"
+    },
+    {
+      "id": 63,
+      "logo": "http://google.com",
+      "name": "Linux Use Karna Seekhein",
+      "sequenceNum": 20,
+      "shortDescription": "Linux kaise use karna hai, iss course ko use kar kar seekhein.",
+      "type": "html"
+    },
+    {
+      "id": 64,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Implementing Database - Python",
+      "sequenceNum": 21,
+      "shortDescription": "Iss course mei hum Python use kar kar apna ek chota sa database banayenge",
+      "type": "html"
+    },
+    {
+      "id": 65,
+      "logo": "https://bit.ly/2GavrpP",
+      "name": "Kaise Effectively Mentor karein?",
+      "sequenceNum": 30,
+      "shortDescription": "Iss course mei hum kaise effectively mentor kar sakte hai, yeh seekhenge",
+      "type": "html"
+    },
+    {
+      "id": 66,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Technical Readings - 101",
+      "sequenceNum": 31,
+      "shortDescription": "Iss Course ko aap use kar kar English mei important Technology Concepts padh kar samajh sakte hai",
+      "type": "html"
+    },
+    {
+      "id": 67,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Technical Readings - 201",
+      "sequenceNum": 32,
+      "shortDescription": "Iss Course ko aap use kar kar English mei important Technology Concepts padh kar samajh sakte hai",
+      "type": "html"
+    },
+    {
+      "id": 68,
+      "logo": "https://bit.ly/1h4FwSY",
+      "name": "Edge cases  - Python",
+      "sequenceNum": 33,
+      "shortDescription": "Iss course mei hum apne programs mai edge cases ke baare mai jaanege or unhe kaise handle kare ye seekhenge",
+      "type": "html"
+    },
+    {
+      "id": 69,
+      "logo": "https://bit.ly/2A2uqd7",
+      "name": "English Movies",
+      "sequenceNum": 34,
+      "shortDescription": "Find list of English movies to watch",
+      "type": "html"
+    },
+    {
+      "id": 70,
+      "logo": "https://bit.ly/2FqFR4k",
+      "name": "NavGurukul ka Constitution - Hindi",
+      "sequenceNum": 35,
+      "shortDescription": "We will learn about the Constitution of NavGurukul.",
+      "type": "html"
+    },
+    {
+      "id": 71,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Non-Technical Readings - 201",
+      "sequenceNum": 36,
+      "shortDescription": "Iss Course ko aap use kar kar English mei important Concepts padh kar samajh sakte hai",
+      "type": "html"
+    },
+    {
+      "id": 72,
+      "logo": "https://bit.ly/2zp7YLR",
+      "name": "Grammar 101",
+      "sequenceNum": 37,
+      "shortDescription": "English Grammar",
+      "type": "html"
+    },
+    {
+      "id": 73,
+      "logo": "https://bit.ly/2zp7YLR",
+      "name": "Grammar 201",
+      "sequenceNum": 38,
+      "shortDescription": "English Grammar",
+      "type": "html"
+    },
+    {
+      "id": 74,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Implementing PickleDB - DB - Part I",
+      "sequenceNum": 3,
+      "shortDescription": "Iss course mei hum Python use kar kar apna ek chota sa database banayenge",
+      "type": "html"
+    },
+    {
+      "id": 75,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Requests - Using APIs in Python",
+      "sequenceNum": 39,
+      "shortDescription": "Python mei API kaise use karte hai, iss course se seekhein",
+      "type": "html"
+    },
+    {
+      "id": 76,
+      "logo": "http://bit.ly/2LQnUeX",
+      "name": "Web Scraping 101",
+      "sequenceNum": 1,
+      "shortDescription": "Web Scraping can help us get a lot of interesting data from the",
+      "type": "html"
+    },
+    {
+      "id": 77,
+      "logo": "https://bit.ly/2Frmrw7",
+      "name": "NavGurukul Learning Framework",
+      "sequenceNum": 40,
+      "shortDescription": "Understanding framework of how NavGurukul Works",
+      "type": "js"
+    },
+    {
+      "id": 78,
+      "logo": "https://bit.ly/2PAmJoV",
+      "name": "English 201",
+      "sequenceNum": 42,
+      "shortDescription": "English basics",
+      "type": "html"
+    },
+    {
+      "id": 79,
+      "logo": "https://bit.ly/2PAmJoV",
+      "name": "English 101 - Let's Begin",
+      "sequenceNum": 43,
+      "shortDescription": "English basics",
+      "type": "html"
+    },
+    {
+      "id": 80,
+      "logo": "https://cdn1.iconfinder.com/data/icons/it-terms/512/loop-512.png",
+      "name": "Lists 101 (Using Python)",
+      "sequenceNum": 44,
+      "shortDescription": "Lists ko thoda depth mein samajhte hain.",
+      "type": "html"
+    },
+    {
+      "id": 81,
+      "logo": "https://bit.ly/2zp7YLR",
+      "name": "English 401",
+      "sequenceNum": 45,
+      "shortDescription": "English learning",
+      "type": "html"
+    },
+    {
+      "id": 82,
+      "logo": "https://bit.ly/2PAmJoV",
+      "name": "English 301",
+      "sequenceNum": 46,
+      "shortDescription": "English basics",
+      "type": "html"
+    },
+    {
+      "id": 83,
+      "logo": "https://cdn1.iconfinder.com/data/icons/it-terms/512/loop-512.png",
+      "name": "Loops 101 (Using Python)",
+      "sequenceNum": 47,
+      "shortDescription": "Loops ko thoda depth mein samajhte hain.",
+      "type": "html"
+    },
+    {
+      "id": 84,
+      "logo": "https://bit.ly/2zp7YLR",
+      "name": "English 501",
+      "sequenceNum": 48,
+      "shortDescription": "English learning",
+      "type": "html"
+    },
+    {
+      "id": 86,
+      "logo": "https://bit.ly/2zp7YLR",
+      "name": "English 601",
+      "sequenceNum": 50,
+      "shortDescription": "English learning",
+      "type": "html"
+    },
+    {
+      "id": 87,
+      "logo": "https://bit.ly/2zp7YLR",
+      "name": "English 701",
+      "sequenceNum": 51,
+      "shortDescription": "English learning",
+      "type": "html"
+    },
+    {
+      "id": 88,
+      "logo": "https://bit.ly/2S2Y1un",
+      "name": "JavaScript 101",
+      "sequenceNum": 52,
+      "shortDescription": "We will learn basics of programming using JavaScript in this course.",
+      "type": "js"
+    },
+    {
+      "id": 89,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Interview Preparation",
+      "sequenceNum": 53,
+      "shortDescription": "In this course we will learn advance topics which are required in interviews.",
+      "type": "html"
+    },
+    {
+      "id": 90,
+      "logo": "https://www.unleashedsoftware.com/assets/uploads/2017/06/hackathon-logo.png",
+      "name": "Hackthon Projects",
+      "sequenceNum": 54,
+      "shortDescription": "Hackthon ke leye kuch Projects",
+      "type": "html"
+    },
+    {
+      "id": 91,
+      "logo": "https://bit.ly/2PzSPkJ",
+      "name": "Non-violent Communication",
+      "sequenceNum": 55,
+      "shortDescription": "In this course we will learn how to learn how to work on our feelings and acknowledge them.",
+      "type": "html"
+    },
+    {
+      "id": 92,
+      "logo": "https://i.ibb.co/DMQXftx/Maths.png",
+      "name": "Maths - hi toh hai yaar! MAT101",
+      "sequenceNum": 56,
+      "shortDescription": "Iss course mei hum apne programs mai edge cases ke baare mai jaanege or unhe kaise handle kare ye seekhenge",
+      "type": "html"
+    }
+  ]
+}
